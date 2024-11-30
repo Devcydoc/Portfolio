@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #f4f4f4;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  header .logo {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  header ul li {
+    display: inline;
+  }
+  
+  header ul li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+  
+  section {
+    padding: 40px 20px;
+  }
+  
+  .home, .about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .home .content, .about .content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .profile-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .socials a {
+    margin-right: 10px;
+  }
+  
+  .projects .project-list {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  
+  .project-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 5px 15px;
+    border: 1px solid #000;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
